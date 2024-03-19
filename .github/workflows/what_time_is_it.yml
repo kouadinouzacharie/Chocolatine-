@@ -1,7 +1,7 @@
-name: Date scripts
+name: Date script
 on: [push, pull-request]
 jobs:
-  Run-Date-After-Each-Pull:
-  runs-on: ubuntu-latest
-      steps:
+  Run-Date-After-Each-Push:
+    runs-on: ubuntu-latest
+    steps:
       - run: date
