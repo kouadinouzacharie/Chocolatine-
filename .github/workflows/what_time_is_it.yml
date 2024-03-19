@@ -1,4 +1,4 @@
-name: D
+name: Date scripts
 on: [push]
 jobs:
   Run-Date-After_Each-Pull:
